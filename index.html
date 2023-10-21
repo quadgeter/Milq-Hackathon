@@ -3,9 +3,73 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <title>MILQ</title>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    
 </head>
 <body>
+    <header class="header">
+        <nav class="nav-bar">
+            <h1>Milq</h1>
+            <ul class="nav-list">
+                <li class="nav-item">Home</li>
+                <li class="nav-item">Search</li>
+                <li class="nav-item">Login</li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main-content">
+        <section class="home">
+            <div class="container">
+                <div class="img-bg">
+                    <div class="left-content">
+                        <h3 class="big-text">The Poster Wall for Local Business</h3>
+                    </div>
+                    <div class="right-content">
+                        <label for="searchField">Find a local business to support</label>
+                        <input type="text" placeholder="search" id="searchField" name="searchField">
+                        <button id="search-btn">Search</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="map-section">
+            <div class="left-text">
+                <h3>We think these are a match for you</h3>
+            </div>
+            <div class="map-container">
+                <img src="map_img.jpg" alt="">
+            </div>
+        </section>
+        <section class="browse">
+            <h1>Browse</h1>
+            <div class="business-container">
+                <div class="business-item">
+                    <div class="img-containter">
+                        <img src="img_1.jpg" alt="">
+                    </div>
+                    <h6>Sam's Burgers</h6>
+                    <p>101 W Blvd, Charlotte NC</p>
+                </div>
+                <div class="business-item">
+                    <div class="img-containter">
+                        <img src="img_1.jpg" alt="">
+                    </div>
+                    <h6>Sam's Burgers</h6>
+                    <p>101 W Blvd, Charlotte NC</p>
+                </div>
+                <div class="business-item">
+                    <div class="img-containter">
+                        <img src="img_1.jpg" alt="">
+                    </div>
+                    <h6>Sam's Burgers</h6>
+                    <p>101 W Blvd, Charlotte NC</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="app.js"></script>
     
 </body>
 </html>
